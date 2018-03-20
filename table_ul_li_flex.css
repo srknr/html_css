@@ -1,0 +1,36 @@
+/* common */
+li{
+  list-style: none;
+}
+
+
+
+.table{
+  display: flex;
+}
+
+.table div ul{
+  display: table;
+  table-layout: fixed;
+  margin: 10px 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+.table-first-column{
+  flex-direction: column;
+  padding: 5px 15px 5px 2px;
+  margin-right: 0;
+  border: 1px solid #ccc;
+  background-color: #e8e8e8;
+
+}
+
+.table-column{
+  flex-direction: column;
+  padding: 5px 15px 5px 2px;
+  margin-right: 0;
+  border: 1px solid #ccc;
+}
